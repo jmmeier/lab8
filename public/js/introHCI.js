@@ -9,5 +9,7 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	ga("send", "event", "like", "click");
+	$(".thumbnail").click ( function() {
+    ga("send", "event", "like", "click"); 
+});
 }
